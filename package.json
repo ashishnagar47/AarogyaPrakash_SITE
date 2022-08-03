@@ -1,0 +1,26 @@
+{
+  "name": "aakash_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node App.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix my-app && npm run build --prefix my-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishnagar47/AarogyaPrakash_Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishnagar47/AarogyaPrakash_Site/issues"
+  },
+  "homepage": "https://github.com/ashishnagar47/AarogyaPrakash_Site#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "google-maps-react": "^2.0.6",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.18"
+  }
+}
